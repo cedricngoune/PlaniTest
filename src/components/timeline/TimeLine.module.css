@@ -1,0 +1,18 @@
+.timeline {
+  display: grid;
+  grid-template-rows: repeat(var(--hoursInDay), var(--timeHeightTimeLine));
+}
+
+.timeline div {
+  position: relative;
+}
+
+.timeline div::before {
+  position: absolute;
+  z-index: -1;
+  width: calc(100vw - 24px);
+  max-width:  var(--main-max-width);
+  height: 1px;
+  background-color: darkgray;
+  content: "";
+}

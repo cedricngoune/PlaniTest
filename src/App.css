@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "micrhoma";
+    src: url("./assets/fonts/Michroma/Michroma-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "playfair";
+    src: url("./assets/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "playfair";
+    src: url("./assets/fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "playfair";
+    src: url("./assets/fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+:root {
+    --txt-primary: rgb(13, 13, 13);
+    --appointement-bg: #303030;
+    --hoursInDay: 13;
+    --minutesInDay: calc(var(--hoursInDay) * 12); /* hours by slice of 5minutes 60/5 => 12 */
+    --timeHeightTimeLine: 60px;
+    --timeHeightAppointment: 5px;
+    --main-max-width: 1200px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+    color: var(--txt-primary);
+}
+
+#App {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+main {
+    max-width: var(--main-max-width);
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}

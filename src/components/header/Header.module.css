@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    flex-direction: column;
+    max-height: 85px;
+}
+
+.title {
+    font-family: micrhoma, Arial, sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+    transform: scaleY(0.6);
+    letter-spacing: 3px;
+    margin: 5px;
+}

@@ -1,0 +1,16 @@
+.calendar {
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+    display: grid;
+    box-sizing: border-box;
+    border-radius: 5px;
+    grid-template-columns: auto 1fr;
+}
+
+.appointments {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    grid-template-rows: repeat(var(--minutesInDay), var(--timeHeightAppointment));
+    border-radius: 5px;
+}
