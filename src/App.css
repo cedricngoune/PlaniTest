@@ -3,23 +3,6 @@
     src: url("./assets/fonts/Michroma/Michroma-Regular.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "playfair";
-    src: url("./assets/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "playfair";
-    src: url("./assets/fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf") format("truetype");
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "playfair";
-    src: url("./assets/fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf") format("truetype");
-    font-weight: 700;
-}
-
 :root {
     --txt-primary: rgb(13, 13, 13);
     --appointement-bg: #303030;
